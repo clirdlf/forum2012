@@ -1,13 +1,13 @@
 {
-  "title": "Site Title - src/_data/site.yml",
-  "description": "Site Description - src/_data/site.yml",
-  "url": "Site url - src/_data/site.yml",
+  "title": "2012 DLF Forum",
+  "description": "DLF Forum site for Denver, Colorado",
+  "url": "forum2011.diglib.org",
   "lang": "en",
   "locale": "en_us",
-  "author": "Site Author - src/_data/site.yml",
+  "author": "DLF",
   "og_image_alt": "",
-  "twitter": "",
-  "linkedin": "",
-  "facebook": "",
-  "instagram": ""
+  "twitter": "https://twitter.com/CLIRDLF",
+  "linkedin": "https://www.linkedin.com/company/digital-library-federation/",
+  "facebook": "https://www.facebook.com/CLIRDLF/",
+  "instagram": "https://www.instagram.com/clirdlf/"
 }

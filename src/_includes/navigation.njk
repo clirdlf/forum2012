@@ -10,7 +10,7 @@
 {# See: https://www.11ty.dev/docs/plugins/navigation/ #}
 {# See https://getbootstrap.com/docs/5.3/components/navbar/ #}
 {# Nav Links  #}
-<ul class="nav nav-pills ms-auto">
+<ul class="nav ms-auto">
     {%- for item in collections.all | eleventyNavigation -%}
         {%- if item.url and item.hideInMainNav != true -%}
             {%- set isCurrent = (item.url == page.url) -%}

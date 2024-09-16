@@ -45,8 +45,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     tempFolderName: '.11ty-vite', // Default name of the temp folder
 
-    // base: 'creating-access.hbculibraries.org',
-
     root: path.resolve(__dirname, 'src'),
 
     // Options passed to the Eleventy Dev Server
@@ -61,7 +59,7 @@ module.exports = function (eleventyConfig) {
       clearScreen: false,
       appType: 'mpa', // New in v2.0.0
       assetsInclude: ['**/*.xml', '**/*.txt', 'CNAME'],
-      base: '/eleventy-plus-bootstrap-scaffold', // use this instead of pathPrefix
+      base: '', // use this instead of pathPrefix
 
       // plugins: [pagefind()],
 
@@ -79,7 +77,8 @@ module.exports = function (eleventyConfig) {
         alias: {
           // Allow references to `node_modules` folder directly
           '/node_modules': path.resolve('.', 'node_modules'),
-          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
+          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+          '~icons': path.resolve(__dirname, 'node_modules/bootstrap-icons')
         }
       }
     }
