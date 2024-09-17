@@ -37,6 +37,7 @@ function extractExcerpt(article) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/')
   eleventyConfig.addPassthroughCopy('CNAME')
+  eleventyConfig.addPassthroughCopy('public')
 
   eleventyConfig.addPlugin(pluginImages)
   eleventyConfig.addPlugin(EleventyPluginNavigation)
