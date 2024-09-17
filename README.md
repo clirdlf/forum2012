@@ -2,6 +2,14 @@
  based on 
 https://web.archive.org/web/20121213011852/http://www.diglib.org/forums/2012forum/
 
+## Notes
+
+Keynote recording does not exist on Vimeo or YouTube
+
+404s
+
+* https://www.diglib.org/community/collaborations/mets/ 
+* http://www.diglib.org/community/collaborations/curatecamp/
 
 # 11ty with Bootstrap Scaffold
 
