@@ -60,7 +60,8 @@ module.exports = function (eleventyConfig) {
       clearScreen: false,
       appType: 'mpa', // New in v2.0.0
       assetsInclude: ['**/*.xml', '**/*.txt', 'CNAME'],
-      base: '', // use this instead of pathPrefix
+      base: '/', // use this instead of pathPrefix,
+      publicDir: 'public',
 
       // plugins: [pagefind()],
 
