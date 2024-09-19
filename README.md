@@ -2,6 +2,10 @@
  based on 
 https://web.archive.org/web/20121213011852/http://www.diglib.org/forums/2012forum/
 
+```
+RedirectMatch 301 ^/dlf-events/2012forum/(.*)$ https://forum2012.diglib.org/$1
+```
+
 ## Notes
 
 Keynote recording does not exist on Vimeo or YouTube
